@@ -138,6 +138,7 @@ class SamplingExecutor:
 ```bash
 claude -p <last_user_message> \
   --output-format stream-json \
+  --verbose \
   --max-turns 1 \
   --no-session-persistence \
   --permission-mode bypassPermissions \

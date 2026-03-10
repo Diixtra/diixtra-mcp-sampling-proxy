@@ -64,6 +64,7 @@ class SamplingExecutor:
             prompt_text,
             "--output-format",
             "stream-json",
+            "--verbose",
             "--max-turns",
             "1",
             "--no-session-persistence",
