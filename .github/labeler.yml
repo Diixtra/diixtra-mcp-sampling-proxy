@@ -1,0 +1,16 @@
+ci:
+  - changed-files:
+      - any-glob-to-any-file: ".github/**"
+
+documentation:
+  - changed-files:
+      - any-glob-to-any-file: "docs/**"
+      - any-glob-to-any-file: "*.md"
+
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file: ".renovaterc"
+      - any-glob-to-any-file: "package-lock.json"
+      - any-glob-to-any-file: "yarn.lock"
+      - any-glob-to-any-file: "go.sum"
+      - any-glob-to-any-file: "Cargo.lock"
