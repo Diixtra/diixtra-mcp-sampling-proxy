@@ -4,8 +4,8 @@ version = "0.1.0"
 description = "MCP proxy that bridges sampling/createMessage to claude -p"
 requires-python = ">=3.11"
 dependencies = [
-    "mcp>=1.9.0",
-    "httpx>=0.28.0",
+    "mcp==1.26.0",
+    "httpx==0.28.1",
 ]
 
 [project.scripts]
